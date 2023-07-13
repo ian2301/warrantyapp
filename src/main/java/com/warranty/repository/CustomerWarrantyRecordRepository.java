@@ -1,8 +1,13 @@
 package com.warranty.repository;
 
-import com.warranty.pojo.CustomerClaimRecord;
+import com.warranty.pojo.CustomerWarrantyRecord;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import java.util.IntSummaryStatistics;
+import java.util.List;
 
-public interface CustomerClaimRecordRepository extends JpaRepository<CustomerClaimRecord,String> {
+
+public interface CustomerWarrantyRecordRepository extends JpaRepository<CustomerWarrantyRecord,String> {
+
+
 }
